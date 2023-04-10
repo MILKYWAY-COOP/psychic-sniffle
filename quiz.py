@@ -83,3 +83,12 @@ def oneString(list):
     print(word)
 
 oneString(['hello','world','my','hello','name','is','Anna'])
+
+
+def is_even(n):
+    """
+    Returns True if n is even, and False otherwise.
+    """
+    return ((n & 1) == 0)
+
+print(is_even(1))
